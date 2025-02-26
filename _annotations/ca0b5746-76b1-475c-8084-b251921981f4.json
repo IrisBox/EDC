@@ -1,0 +1,37 @@
+---
+canvas: "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "That's me!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-02-26T17:12:07.852Z",
+            "modified": "2025-02-26T17:12:12.469Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"3786.502197265625\" cy=\"1840.8263059810106\" r=\"678.5976682856981\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ca0b5746-76b1-475c-8084-b251921981f4.json",
+    "motivation": "commenting"
+}
