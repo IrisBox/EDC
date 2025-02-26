@@ -1,0 +1,71 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary//20241113102251",
+  "height": 2801,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 350,
+      "width": 350
+    },
+    {
+      "height": 175,
+      "width": 175
+    },
+    {
+      "height": 88,
+      "width": 88
+    },
+    {
+      "height": 44,
+      "width": 44
+    },
+    {
+      "height": 22,
+      "width": 22
+    },
+    {
+      "height": 11,
+      "width": 11
+    },
+    {
+      "height": 5,
+      "width": 5
+    },
+    {
+      "height": 3,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4
+      ],
+      "width": 512
+    }
+  ],
+  "width": 2800
+}
