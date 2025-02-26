@@ -1,0 +1,68 @@
+{
+  "@context": "http://iiif.io/api/image/2/context.json",
+  "@id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds//20240530091136",
+  "height": 2783,
+  "profile": [
+    "http://iiif.io/api/image/2/level0.json",
+    {
+      "formats": [
+        "jpg"
+      ],
+      "qualities": [
+        "default"
+      ]
+    }
+  ],
+  "protocol": "http://iiif.io/api/image",
+  "sizes": [
+    {
+      "height": 174,
+      "width": 348
+    },
+    {
+      "height": 87,
+      "width": 174
+    },
+    {
+      "height": 43,
+      "width": 87
+    },
+    {
+      "height": 22,
+      "width": 43
+    },
+    {
+      "height": 11,
+      "width": 22
+    },
+    {
+      "height": 5,
+      "width": 11
+    },
+    {
+      "height": 3,
+      "width": 5
+    },
+    {
+      "height": 1,
+      "width": 3
+    },
+    {
+      "height": 1,
+      "width": 1
+    }
+  ],
+  "tiles": [
+    {
+      "height": 512,
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 512
+    }
+  ],
+  "width": 5566
+}

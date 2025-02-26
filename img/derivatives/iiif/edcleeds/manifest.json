@@ -1,0 +1,716 @@
+---
+added: 2025-02-26 15&#58;04&#58;37.379465
+thumbnail: https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/188,/0/default.jpg
+title: EDC-Leeds
+user: Andy Corrigan
+---
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "EDC-Leeds"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "Andy Corrigan (CC BY-NC 4.0)"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Photos taken during a research trip to Leeds for a case-study of the digital landscape at University of Leeds Library"
+    ]
+  },
+  "behavior": [
+    "paged"
+  ],
+  "viewingDirection": "left-to-right",
+  "items": [
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_181604"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_181607"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_181733"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_200058"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0004-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_200419"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419/full/117,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2803,
+      "width": 3737,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0005-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2803,
+                "width": 3737,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_200613"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613/full/109,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2608,
+      "width": 3479,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0006-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2608,
+                "width": 3479,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_200939"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939/full/191,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 6115,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0007-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 6115,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_202210"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p8/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0008-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240529_203046"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046/full/125,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 4000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p9/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0009-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 4000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_091136"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136/full/174,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2783,
+      "width": 5566,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p10/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0010-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2783,
+                "width": 5566,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_091442"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442/full/125,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 4000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p11/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0011-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 4000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_094021"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021/full/125,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 4001,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p12/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0012-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 4001,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_135436"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p13/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0013-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_141329"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329/full/118,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 2837,
+      "width": 3782,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p14/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0014-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2837,
+                "width": 3782,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240530_141601"
+        ]
+      },
+      "thumbnail": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601/full/188,/0/default.jpg",
+          "type": "thumbnail"
+        }
+      ],
+      "height": 3000,
+      "width": 3000,
+      "items": [
+        {
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p15/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0015-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601/full/full/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3000,
+                "width": 3000,
+                "service": [
+                  {
+                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601",
+                    "type": "ImageService2",
+                    "profile": "level1"
+                  }
+                ]
+              },
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-15"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
