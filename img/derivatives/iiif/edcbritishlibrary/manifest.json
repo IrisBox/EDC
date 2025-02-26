@@ -1,12 +1,9 @@
 ---
-added: 2025-02-26 16&#58;47&#58;19.976641
-thumbnail: https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092657/full/117,/0/default.jpg
-title: EDC-British-Library
-user: Andy Corrigan
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -38,7 +35,7 @@ user: Andy Corrigan
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -47,7 +44,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092657/full/117,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092657/full/117,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -55,35 +52,41 @@ user: Andy Corrigan
       "width": 3735,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092657/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092657/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2800,
                 "width": 3735,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092657",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092657",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -92,7 +95,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092920/full/117,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092920/full/117,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -100,35 +103,41 @@ user: Andy Corrigan
       "width": 3733,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092920/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092920/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2800,
                 "width": 3733,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113092920",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113092920",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-2-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -137,7 +146,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113093424/full/175,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113093424/full/175,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -145,35 +154,41 @@ user: Andy Corrigan
       "width": 2800,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113093424/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113093424/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2800,
                 "width": 2800,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113093424",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113093424",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-3-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -182,7 +197,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113102251/full/175,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113102251/full/175,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -190,35 +205,41 @@ user: Andy Corrigan
       "width": 2800,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113102251/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113102251/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2801,
                 "width": 2800,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113102251",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113102251",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-4-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -227,7 +248,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113105146/full/175,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113105146/full/175,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -235,35 +256,41 @@ user: Andy Corrigan
       "width": 2800,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113105146/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113105146/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3734,
                 "width": 2800,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113105146",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113105146",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-5-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -272,7 +299,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121210/full/175,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121210/full/175,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -280,35 +307,41 @@ user: Andy Corrigan
       "width": 2800,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121210/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121210/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2800,
                 "width": 2800,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121210",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121210",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-6-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-7",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -317,7 +350,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121350/full/117,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121350/full/117,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -325,35 +358,41 @@ user: Andy Corrigan
       "width": 3753,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p7/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0007-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121350/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121350/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2815,
                 "width": 3753,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113121350",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113121350",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-7"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-7"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-7-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-8",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -362,7 +401,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113170426/full/101,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113170426/full/101,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -370,30 +409,36 @@ user: Andy Corrigan
       "width": 3240,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/page/p8/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/annotation/p0008-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113170426/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113170426/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2430,
                 "width": 3240,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/20241113170426",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/20241113170426",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-8"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcbritishlibrary-8-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
