@@ -1,0 +1,37 @@
+---
+canvas: "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "That's me!",
+            "purpose": "commenting",
+            "creator": {
+                "id": "IrisBox",
+                "name": "Andy Corrigan"
+            },
+            "created": "2025-02-26T17:10:23.644Z",
+            "modified": "2025-02-26T17:10:28.202Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcbritishlibrary/canvas/edcbritishlibrary-6",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"1669.3671264648438\" cy=\"724.8101501464844\" r=\"176.90476650609762\"></circle></svg>"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "73d254e2-282a-4d64-b0c7-482501c02d0f.json",
+    "motivation": "commenting"
+}
