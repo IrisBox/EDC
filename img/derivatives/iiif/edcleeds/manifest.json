@@ -1,12 +1,9 @@
 ---
-added: 2025-02-26 15&#58;04&#58;37.379465
-thumbnail: https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/188,/0/default.jpg
-title: EDC-Leeds
-user: Andy Corrigan
+layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/manifest.json",
+  "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -38,7 +35,7 @@ user: Andy Corrigan
   "viewingDirection": "left-to-right",
   "items": [
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-1",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-1",
       "type": "Canvas",
       "label": {
         "en": [
@@ -47,7 +44,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181604/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -55,35 +52,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p1/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0001-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181604/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181604",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181604",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-1"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-1"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-1-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-2",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-2",
       "type": "Canvas",
       "label": {
         "en": [
@@ -92,7 +95,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181607/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -100,35 +103,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p2/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0002-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0002-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181607/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181607",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181607",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-2"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-2"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-2-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-3",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-3",
       "type": "Canvas",
       "label": {
         "en": [
@@ -137,7 +146,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181733/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -145,35 +154,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p3/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0003-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0003-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181733/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529181733",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529181733",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-3"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-3"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-3-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-4",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-4",
       "type": "Canvas",
       "label": {
         "en": [
@@ -182,7 +197,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200058/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -190,35 +205,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p4/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0004-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0004-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200058/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200058",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200058",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-4"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-4"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-4-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-5",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-5",
       "type": "Canvas",
       "label": {
         "en": [
@@ -227,7 +248,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419/full/117,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200419/full/117,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -235,35 +256,41 @@ user: Andy Corrigan
       "width": 3737,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p5/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0005-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0005-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200419/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2803,
                 "width": 3737,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200419",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200419",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-5"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-5"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-5-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-6",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-6",
       "type": "Canvas",
       "label": {
         "en": [
@@ -272,7 +299,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613/full/109,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200613/full/109,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -280,35 +307,41 @@ user: Andy Corrigan
       "width": 3479,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p6/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0006-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0006-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200613/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2608,
                 "width": 3479,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200613",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200613",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-6"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-6"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-6-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-7",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-7",
       "type": "Canvas",
       "label": {
         "en": [
@@ -317,7 +350,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939/full/191,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200939/full/191,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -325,35 +358,41 @@ user: Andy Corrigan
       "width": 6115,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p7/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p7/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0007-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0007-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200939/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 6115,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529200939",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529200939",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-7"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-7"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-7-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-8",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-8",
       "type": "Canvas",
       "label": {
         "en": [
@@ -362,7 +401,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529202210/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -370,35 +409,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p8/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p8/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0008-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0008-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529202210/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529202210",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529202210",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-8"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-8"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-8-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-9",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-9",
       "type": "Canvas",
       "label": {
         "en": [
@@ -407,7 +452,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046/full/125,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529203046/full/125,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -415,35 +460,41 @@ user: Andy Corrigan
       "width": 4000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p9/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p9/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0009-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0009-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529203046/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 4000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240529203046",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240529203046",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-9"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-9"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-9-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-10",
       "type": "Canvas",
       "label": {
         "en": [
@@ -452,7 +503,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136/full/174,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091136/full/174,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -460,35 +511,41 @@ user: Andy Corrigan
       "width": 5566,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p10/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p10/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0010-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0010-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091136/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2783,
                 "width": 5566,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091136",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091136",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-10"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-10"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-10-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-11",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-11",
       "type": "Canvas",
       "label": {
         "en": [
@@ -497,7 +554,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442/full/125,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091442/full/125,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -505,35 +562,41 @@ user: Andy Corrigan
       "width": 4000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p11/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p11/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0011-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0011-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091442/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 4000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530091442",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530091442",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-11"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-11"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-11-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-12",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-12",
       "type": "Canvas",
       "label": {
         "en": [
@@ -542,7 +605,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021/full/125,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530094021/full/125,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -550,35 +613,41 @@ user: Andy Corrigan
       "width": 4001,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p12/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p12/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0012-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0012-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530094021/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 4001,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530094021",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530094021",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-12"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-12"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-12-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-13",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-13",
       "type": "Canvas",
       "label": {
         "en": [
@@ -587,7 +656,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530135436/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -595,35 +664,41 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p13/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p13/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0013-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0013-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530135436/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530135436",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530135436",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-13"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-13"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-13-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-14",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-14",
       "type": "Canvas",
       "label": {
         "en": [
@@ -632,7 +707,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329/full/118,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141329/full/118,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -640,35 +715,41 @@ user: Andy Corrigan
       "width": 3782,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p14/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p14/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0014-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0014-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141329/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 2837,
                 "width": 3782,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141329",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141329",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-14"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-14"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-14-list.json",
+          "type": "AnnotationPage"
         }
       ]
     },
     {
-      "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-15",
+      "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-15",
       "type": "Canvas",
       "label": {
         "en": [
@@ -677,7 +758,7 @@ user: Andy Corrigan
       },
       "thumbnail": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601/full/188,/0/default.jpg",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141601/full/188,/0/default.jpg",
           "type": "thumbnail"
         }
       ],
@@ -685,30 +766,36 @@ user: Andy Corrigan
       "width": 3000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/page/p15/1",
+          "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/page/p15/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/annotation/p0015-image",
+              "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/annotation/p0015-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
-                "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601/full/full/0/default.jpg",
+                "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141601/full/full/0/default.jpg",
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 3000,
                 "width": 3000,
                 "service": [
                   {
-                    "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/20240530141601",
+                    "id": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/20240530141601",
                     "type": "ImageService2",
                     "profile": "level1"
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcleeds/canvas/edcleeds-15"
+              "target": "{{ '/' | absolute_url }}img/derivatives/iiif/edcleeds/canvas/edcleeds-15"
             }
           ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "{{ '/' | absolute_url }}annotations/edcleeds-15-list.json",
+          "type": "AnnotationPage"
         }
       ]
     }
