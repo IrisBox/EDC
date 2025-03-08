@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburghmanifest.json",
+  "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [

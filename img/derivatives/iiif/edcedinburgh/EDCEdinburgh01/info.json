@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh01//EDCEdinburgh01",
+  "@id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh//EDCEdinburgh01",
   "height": 8000,
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
