@@ -49,7 +49,7 @@
       "width": 8000,
       "items": [
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh01/page/p1/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh01/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh02/page/p2/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh02/page/p2/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -96,12 +96,12 @@
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh02/canvas/edcedinburgh02-1"
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh02/canvas/edcedinburgh02-2"
             }
           ]
         },
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh03/page/p3/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh03/page/p3/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -122,12 +122,12 @@
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh03/canvas/edcedinburgh03-1"
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh03/canvas/edcedinburgh03-3"
             }
           ]
         },
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh04/page/p4/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh04/page/p4/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -148,12 +148,12 @@
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh04/canvas/edcedinburgh04-1"
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh04/canvas/edcedinburgh04-4"
             }
           ]
         },
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh05/page/p5/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh05/page/p5/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -174,12 +174,12 @@
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh05/canvas/edcedinburgh05-1"
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh05/canvas/edcedinburgh05-5"
             }
           ]
         },
         {
-          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh06/page/p6/6",
+          "id": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh06/page/p6/1",
           "type": "AnnotationPage",
           "items": [
             {
@@ -200,7 +200,7 @@
                   }
                 ]
               },
-              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh06/canvas/edcedinburgh06-1"
+              "target": "https://irisbox.github.io/EDC/img/derivatives/iiif/edcedinburgh/edcedinburgh06/canvas/edcedinburgh06-6"
             }
           ]
         }
